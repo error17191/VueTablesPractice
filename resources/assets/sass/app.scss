@@ -1,9 +1,19 @@
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+@import '~font-awesome/css/font-awesome.css';
 // Variables
-@import "variables";
+//@import "variables";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.panel-default > .panel-heading {
+  color: #fff;
+  height: 60px;
+  font-size: 18px;
+  padding-top: 15px;
+  background-color: #106bae;
+  /* border-color: #c63faf; */
+}
+
